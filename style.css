@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: violet;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    position: relative;
+    height: 100px;
+    padding: 0 40px;
+    
+    
+    
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: yellow;
+}
+
+h1 {
+    color: yellow;
+}
+
+
+.hero-section {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    
+}
+
+.hero-section2 {
+    padding-top: 30px;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+}
+
+.hero-section3 {
+    line-height: 1.5;
+    word-spacing: 10px;
+    
+}
+
+.hero-section3 p {
+    margin-bottom: 8px;
+}
+
+#incrementButton, #decrementButton{
+    font-size: 20px;
+    width: 20px;
+}
+
+#resetButton, #showAllertButton {
+    font-size: 20px;
+    width: 80px;
+    font-weight: 550;
+}
+
+.para-greet {
+    display: flex;
+    justify-content: space-around;
+    height: 800px;
+    background-color: aqua;
+    padding-top: 50px;
+
+}
+
+.para-greet2, .para-message {
+    text-align: center
+}
+
+.para-greet2 label, .para-greet2 input {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+
+
+#addParagraphButton {
+    font-size: 20px;
+    width: 150px;
+    font-weight: 550;
+}
+
+#greetButton {
+    font-size: 25px;
+    width: 150px;
+    font-weight: 550;
+}
+
+#menuButton {
+    font-size: 22px;
+    width: 150px;
+    font-weight: 550;
+
+}
